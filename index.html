@@ -1,0 +1,352 @@
+<!--
+Hit RUN to see this project in action!
+Feel free to edit the HTML and CSS to make it your own. You can also check the README.md file to know more.
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhavesh Kapre</title>
+    <!--
+    - favicon
+    -->
+    <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+    <!--
+    - custom css link
+    -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!--
+    - google font link
+    -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!--
+    - #MAIN
+    -->
+    <main>
+      <!--
+      - #SIDEBAR
+      -->
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img src="./assets/images/img.jpg" alt="Bhavesh Kapre" width="80">
+          </figure>
+          <div class="info-content">
+            <h1 class="name" title="Richard hanrick">Bhavesh Kapre</h1>
+            <p class="title">B.Tech (CSE)</p>
+          </div>
+          <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+          <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+                <a href="mailto:kapre1999@yahoo.com" class="contact-link">Kapre1999@yahoo.com</a>
+              </div>
+            </li>
+            
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="calendar-outline"></ion-icon>
+              </div>
+              <div class="contact-info">
+                <p class="contact-title">Birthday</p>
+                <time datetime="1982-06-23">September 19 , 1999</time>
+              </div>
+            </li>
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+              <address>Burhanpur , Madhya Pradesh , INDIA</address>
+            </div>
+          </li>
+        </ul>
+        <div class="separator"></div>
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/bhavesh-kapre-367139216/" target="_blank" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://www.instagram.com/bhavesh_kapre_19" class="social-link" target="_blank">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+    <!--
+    - #main-content
+    -->
+    <div class="main-content">
+      <!--
+      - #NAVBAR
+      -->
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+        </ul>
+      </nav>
+      <!--
+      - #ABOUT
+      -->
+      <article class="about  active" data-page="about">
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+        <section class="about-text">
+          
+          <p>Hello! I'm Bhavesh Kapre, a 2022 graduate in Computer Science and Engineering.
+            In the ever-evolving field of technology, I stand at the beginning of my professional journey,
+            eagerly seeking job opportunities where I can contribute, learn, and grow.
+          </p>
+          <p>My academic background has equipped me with a solid foundation in computer science
+            principles, and my personal interests have always skewed towards the latest tech trends
+            and advancements. Whether it's through engaging with online tech communities, personal
+            projects, or staying updated with the current tech landscape, I am committed to continuous
+            learning and development.
+          </p>
+          <p>Beyond technology, my interests span a wide array of genres in movies,
+            including fiction, horror, sci-fi, drama, and thrillers. This diverse range of
+            interests not only entertains me but also fuels my creative thinking and problem-solving
+            skills. I enjoy deep and thoughtful conversations on various subjects like new technologies,
+            politics, physics, and even the lighter side of life with jokes and intriguing discussions.
+          </p>
+          <p>I am on the lookout for opportunities where
+            I can apply my skills in a practical environment
+            and be part of an innovative team. Adapting and growing in
+            a dynamic field is what drives me, and I am excited about the prospects
+            of contributing to a forward-thinking organization.
+          </p>
+        </section>
+      </article>
+      <!--
+      - #RESUME
+      -->
+      <article class="resume" data-page="resume">
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Education</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">B.Tech in Computer Science and Engineering</h4>
+              <h4 class="h4 timeline-item-title">Shivajirao Kadam Institute of Technology and Management</h4>
+              <span>2019 — 2022</span>
+              <p class="timeline-text">
+                <b>CGPA: 7.5</b><br>
+                In my B.Tech program, I developed a strong foundation in computer science principles
+                and practical applications, encompassing various areas such as software development,
+                algorithm design, and data structures. My coursework and projects during this period
+                were oriented towards both theoretical understanding and practical implementation,
+                preparing me for real-world challenges in the technology sector.
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Diploma in Computer Science and Engineering</h4>
+              <h4 class="h4 timeline-item-title">Thakur Shivkumarsingh Memorial Polytechnic College, Burhanpur</h4>
+              <span>2016 — 2019</span>
+              <p class="timeline-text">
+                <b>CGPA: 7.3</b><br>
+                My diploma program laid the groundwork for my career in computer science.
+                Here, I gained a fundamental understanding of computing systems, programming,
+                and problem-solving skills. This program was instrumental in shaping my technical
+                acumen and directing me towards a more advanced study in the field.
+              </p>
+            </li>
+          </ol>
+        </section>
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Projects</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Cloud Infrastructure Deployment for FileCloud Using AWS AMI</h4>
+              <span>11/2023</span>
+              <p class="timeline-text">
+                This project highlights my expertise in AWS cloud solutions, focusing on deploying a FileCloud server using an Amazon EC2 instance. Key aspects include:
+                <br>• <strong>EC2 Instance Deployment:</strong> Implemented and optimized an EC2 instance with FileCloud's AMI for streamlined deployment and reliability.
+                <br>• <strong>S3 Bucket Integration:</strong> Utilized Amazon S3 for secure and scalable file data storage, adhering to best practices for file organization and management.
+                <br>• <strong>IAM Role Configuration:</strong> Configured IAM roles for secure EC2 and S3 communication, enhancing security and compliance measures.
+                <br>• <strong>AWS Foundations:</strong> Demonstrated a robust understanding of AWS services, applying cloud concepts for effective file-sharing solutions.
+                <br>• <strong>Cloud Solutions Experience:</strong> Successfully executed a cloud-based project, showcasing hands-on AWS infrastructure skills, particularly in deploying and optimizing file sharing and collaboration tools.
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Predicting Stock Prices Using Machine Learning</h4>
+              <span>01/2022</span>
+              <p class="timeline-text">
+                Built machine learning models for stock price prediction of Facebook, Google, and Apple. Used Python and Dash for interactive data visualization.
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Corn Disease Detection</h4>
+              <span>03/2021</span>
+              <p class="timeline-text">
+                Developed a machine learning model for corn disease detection. Implemented a Flask web interface for image uploading and real-time detection.
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Q/A System</h4>
+              <span>12/2020</span>
+              <p class="timeline-text">
+                Designed a dynamic Q&A system and a Coronavirus Chatbot. Utilized Python and Postman API for data retrieval, with a tkinter GUI.
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">My Technical Blog</h4>
+              <span>04/2019</span>
+              <p class="timeline-text">
+                Developed a CMS using MVC framework and PHP. Featured comprehensive user and post management functionalities.
+              </p>
+            </li>
+          </ol>
+        </section>
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="ribbon-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Certificates</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Azure Fundamentals AZ-900 (Microsoft)→<a href="https://www.credly.com/badges/b65f3335-6e56-42a7-8e0e-5e865fef4182" class="goto-arrow" target="_blank">View</a></h4>
+              <span>Present</span>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Google IT Support Professional Certificate (Coursera) →<a href="https://www.coursera.org/account/accomplishments/professional-cert/MQNLV5ACYGCF" class="goto-arrow" target="_blank">View</a></h4>
+              <span>10/2023</span>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">SQL (Intermediate) Certificate (Hackerrank)→<a href="" class="goto-arrow">View</a></h4>
+              <span>11/2021</span>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Building Web Applications in PHP (Coursera)→<a href="" class="goto-arrow">View</a></h4>
+              <span>08/2020</span>
+            </li>
+          </ol>
+        </section>
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="trophy-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Badges</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Azure Devloper League Badges →<a href="https://learn.microsoft.com/en-gb/users/bhaveshkapre-8387/achievements" class="goto-arrow" target="_blank">View</a></h4>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Qwiklabs Skill Badges →<a href="https://www.cloudskillsboost.google/public_profiles/96788eba-f16d-406b-bd79-13f7df453585" class="goto-arrow" target="_blank">View</a></h4>
+            </li>
+          </ol>
+        </section>
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="code-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Skills</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Python</h4>
+              <span>Proficient in software development, data analysis, and scripting.</span>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Java</h4>
+              <span>Experienced in building robust applications.</span>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">PHP</h4>
+              <span>Skilled in web development and server-side scripting.</span>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">AWS</h4>
+              <span>Competent in various AWS services for cloud computing solutions.</span>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Azure</h4>
+              <span>Proficient in using Microsoft Azure for a range of cloud services.</span>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">SQL</h4>
+              <span>Strong command over database querying and management.</span>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">HTML</h4>
+              <span>Solid foundation in structuring web pages and content.</span>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Laravel</h4>
+              <span>Competent in developing modern web applications.</span>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Bootstrap</h4>
+              <span>Experienced in designing responsive and mobile-first interfaces.</span>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Django</h4>
+              <span>Proficient in rapid development and clean design.</span>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Networking</h4>
+              <span>Knowledgeable in networking concepts and configuration.</span>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Server-Linux</h4>
+              <span>Experienced in Linux server management and maintenance.</span>
+            </li>
+          </ol>
+        </section>
+        
+      </article>
+    </div>
+  </main>
+  <!--
+  - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+  <!--
+  - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
